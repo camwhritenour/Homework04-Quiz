@@ -1,0 +1,63 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+figure {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewHighScorebtn {
+    justify-content: left;
+}
+
+#timer {
+    justify-content: right;
+}
+
+.quiz-container {
+    
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0);
+    
+}
+
+.quiz-header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+    color: black;
+    
+}
+.quiz-description {
+    font-size: 22px;
+    text-align: center;
+}
+
+.buttonDiv {
+    margin-top: 15px;
+}
+
+#start-quiz {
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: flex-end;
+}
