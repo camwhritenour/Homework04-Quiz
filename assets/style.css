@@ -61,3 +61,10 @@ figure {
     display: inline-flex;
     align-items: flex-end;
 }
+
+#answers {
+    list-style: none;
+}
+#submitbtn {
+    display: none;
+}
