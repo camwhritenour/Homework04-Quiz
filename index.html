@@ -21,22 +21,32 @@
 
         <div class="quiz-container" id="quiz">
             <div>
-                <h1 class="quiz-header">Coding Challenge Quiz</h1>
-                <p class="quiz-description">Try to answer the following coding-related questions within the time limit.
+                <h1 id="quiz-header">Coding Challenge Quiz</h1>
+                <p id="quiz-description">Try to answer the following coding-related questions within the time limit.
                     Keep in mind that incorrect
                     answers will penalize your score/time by ten seconds!</p>
                 <hr>
 
                 <ul id="answers">
-                    <li id="answer1"></li>
-                    <li id="answer2"></li>
-                    <li id="answer3"></li>
-                    <li id="answer4"></li>
+                    <li>
+                        <button id="answer1">Answer 1</button>
+                    </li>
+                    <li>
+                        <button id="answer2">Answer 2</button>
+                    </li>
+                    <li>
+                        <button id="answer3">Answer 3</button>
+                    </li>
+                    <li>
+                        <button id="answer4">Answer 4</button>
+                    </li>
                 </ul>
-                <button id="submitbtn"> Submit</button>
+                <hr id="submitline">
+                <p id="indicator"></p>
+                <!-- <button id="submitbtn" data-state="hidden"> Submit</button> -->
             </div>
             <div class="buttonDiv">
-                <button id="start-quiz">Start Quiz</button>
+                <button id="start-quiz" data-state="visible">Start Quiz</button>
             </div>
         </div>
 
