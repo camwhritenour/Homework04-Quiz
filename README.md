@@ -37,6 +37,8 @@ Created Welcome screen that shows a timer and leaderboard button(WIP) at the top
 Created a Contaier with a heading for the quiz, a description
 Created a button element that starts the timer and changes brings up the quiz
 Added button functionality so when you click an answer it brings up the next question and checks your answer
+Added a short list of questions to make sure it functions
+Created a system that intuitively checks the correct answer for each question
 
 ```
 
@@ -44,6 +46,7 @@ Added button functionality so when you click an answer it brings up the next que
 
 ```
 Points and leaderboard system
+Additional Timer functionality
 ```
 
 ## Screenshots
